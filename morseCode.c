@@ -1,3 +1,5 @@
+// currently only translates for F*** Y**
+// I had a very annoying roommate sorry
 
 void setup(){
 	Serial.begin(9600);
@@ -91,8 +93,9 @@ void translate(char x){
 	
 
 void loop(){
-	
-	char input[100] = "FUCK YOU"
+	//put the desired word within the 
+	//quotation marks
+	char input[100] = ""
 	int i=0;
 	while(input[i]!='\n'){
 		translate(input(i))
